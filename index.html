@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rituraj Mallick | Portfolio</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header id="home">
+    <nav>
+      <div class="logo">Rituraj</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="home-container">
+      <div class="home-text">
+        <h1>Hello, I'm <span class="animated-name">Rituraj Mallick</span></h1>
+        <p class="home-subtitle">B.Tech CSE | Web Developer | Techno India University</p>
+        <a href="#projects" class="btn">See My Work</a>
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/1AXsYi3zdW/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/r_i_t_u_r_a_j_07?igsh=MThocDg5YjF4cXAzMQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/riturajmallick123-lgtm" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rituraj-mallick-896305345" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/RiturajMal46617" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="home-photo">
+        <img src="background.jpg" alt="Rituraj Mallick">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-photo">
+        <img src="profile image.jpg" alt="Rituraj Mallick">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>My name is Rituraj Mallick. I am currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE) at Techno India University. I have a strong interest in web development and enjoy building responsive and user-friendly websites.</p>
+        <p>I am skilled in various programming languages such as C, C++, Python, and Java, and I’m also familiar with HTML, CSS, JavaScript, and React for front-end development. On the back end, I’m exploring Node.js and Express, and I have basic knowledge of working with databases like MySQL and MongoDB.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skills-left">
+        <div class="skill"><span>HTML</span></div>
+        <div class="skill"><span>CSS</span></div>
+        <div class="skill"><span>JavaScript</span></div>
+      </div>
+      <div class="skills-right">
+        <div class="skill"><span>Python</span></div>
+        <div class="skill"><span>Java</span></div>
+        <div class="skill"><span>React</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="scroll-reveal">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <a href="https://example.com/project1" target="_blank">
+          <h3>Addhayan</h3>
+          <p>A learning platform to enhance educational interaction with modern tech.</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <a href="https://example.com/project2" target="_blank">
+          <h3>Skill Nexsas</h3>
+          <p>A tool for users to track and build their professional skill sets efficiently.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="scroll-reveal">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit" id="saveContact">Save</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Rituraj Mallick. All rights reserved.</p>
+  </footer>
+
+  <div id="progress-bar"></div>
+  <div class="modal-overlay" id="modal-overlay"></div>
+  <div class="resume-modal" id="resume-modal">
+    <span class="close-modal" id="close-resume">&times;</span>
+    <iframe src="your_resume.pdf"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</body>
+</html>
+
